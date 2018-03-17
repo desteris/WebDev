@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #273A4B;
+}
+
+.par {
+  height: 800px;
+  border: 2px solid orange;
+  margin: 5px;
+}
+
+.par h1 {
+  text-align: center;
+  color: orange;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: orange;
+  padding: 10px 30px;
+  border: 1px solid orange;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 5px;
+}
+
+a:hover {
+  color: #fff;
+}

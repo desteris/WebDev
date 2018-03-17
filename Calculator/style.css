@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color:white    ;
+}
+
+.box {
+  padding: 5px;
+  border: 2px #00FFA2 solid;
+  height: 260px;
+  width: 180px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: #38FF9F;
+  border-radius: 20px;
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68);
+}
+
+.screen {
+  padding-left: 8px;
+  border: 1px black solid;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  justify-content: left;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+
+.screen input {
+  background-color: transparent;
+  border: 0;
+  font-size: 30px;
+  height: 100%;
+}
+
+#memory {
+  opacity: 0.4;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  height: 170px;
+  grid-gap: 5px;
+  padding: 5px;
+  padding-top: 10px;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.operators {
+  display: grid;
+  grid-gap: 5px;
+  height: 100%;
+}
+
+.num, .op, .delete, .equal {
+  box-shadow: 0px 3px 0px 0px #222121;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 0;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.num {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.num:focus, .op:focus, .delete:focus, .equal:focus {
+  outline: 0;
+}
+
+.num:hover, .op:hover, .delete:hover, .equal:hover {
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
+}

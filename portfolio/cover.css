@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: url('back.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  overflow: hidden;
+  text-transform: uppercase;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.left {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid white;
+  height: 450px;
+}
+
+.left img {
+  padding-top: 40px;
+}
+
+.right {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+nav {
+  text-align: right;
+  padding: 10px;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  transition: all ease-in-out;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+main {
+  margin-top: 90px;
+}
+
+main p {
+  margin: 40px 0;
+}
+
+main a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #fff;
+  padding: 10px 50px;
+  border-radius: 20px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+main a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.icons {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+}
+
+.icons a {
+  margin: 0 2px;
+  color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
